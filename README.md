@@ -21,3 +21,9 @@ http://www.csdn.net/article/2015-07-06/2825133-objective-c-runtime/1 //深入理
 http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/   ／／Objective-C Runtime
 
 http://www.cnblogs.com/geek6/p/4106199.html。                ／／Object-C 中的Selector 概念
+
+
+http://yulingtianxia.com/blog/2017/04/17/Objective-C-Method-Swizzling/  Objective-C Method Swizzling
+
+
+https://my.oschina.net/u/2340880/home  //

@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4913C24A1ED2C4A9002C496F /*  Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = " Method Swizzling";
+			sourceTree = "<group>";
+		};
 		49A511CF1ED27AC900FDFE3B /* NSObject有在运行时获得类的信息 */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +115,7 @@
 		74807A0B1ECFBF9C00763693 /* 多态 */ = {
 			isa = PBXGroup;
 			children = (
+				4913C24A1ED2C4A9002C496F /*  Method Swizzling */,
 				49A511CF1ED27AC900FDFE3B /* NSObject有在运行时获得类的信息 */,
 				74807A501ED1511B00763693 /* class_addMethod使用 */,
 				74807A461ED03CA700763693 /* SEL的原理及使用 */,
