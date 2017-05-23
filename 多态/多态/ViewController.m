@@ -18,6 +18,7 @@
 #import <objc/runtime.h>
 #import "person2.h"
 #import "Teacher.h"
+#import <RSSwizzle/RSSwizzle.h>
 
 @interface ViewController ()
 
@@ -30,17 +31,78 @@
     
     
     
-    [self demo6];
+    [self demo7];
     
     
     
-    
+   
     
     
 }
+
+#pragma mark -- RSSwizzle的使用
+-(void)demo7{
+    
+    // @selector(log)  NSSelectorFromString(@"log")
+    [RSSwizzle swizzleClassMethod:NSSelectorFromString(@"log") inClass:NSClassFromString(@"ViewController") newImpFactory:^id(RSSwizzleInfo *swizzleInfo) {
+       
+        
+        return ^(__unsafe_unretained id self){
+        
+            [self demo6];
+            
+           // NSSelectorFromString(@"demo6");没效果
+        };
+        
+    }];
+    
+    
+    [RSSwizzle swizzleInstanceMethod:NSSelectorFromString(@"demo2") inClass:NSClassFromString(@"ViewController") newImpFactory:^id(RSSwizzleInfo *swizzleInfo) {
+        return ^(__unsafe_unretained id self){
+            
+            [self demo1];
+        };
+    } mode:RSSwizzleModeAlways key: @"key" ];
+    
+    
+    /*
+     第一个参数为要替换的函数，第二个参数为要替换方法的类，第三个的block中返回替换后的方法，第四个参数设置替换模式，最后一个参数是此替换操作的标识符
+     */
+    [RSSwizzle swizzleInstanceMethod:NSSelectorFromString(@"touchesBegan:withEvent:") inClass:NSClassFromString(@"ViewController") newImpFactory:^id(RSSwizzleInfo *swizzleInfo) {
+        return ^(__unsafe_unretained id self,NSSet* touches,UIEvent* event){
+        
+            NSLog(@"点击方法的替换");
+        };
+    } mode:RSSwizzleModeAlways key:@"key1"];
+
+
+    
+    
+    
+    
+    
+    
+
+   //  [[self class] log];
+   // [self demo2];
+
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"test");
+    //[ViewController log];
+}
+
+
+
++(void)log{
+
+    NSLog(@"Class log");
+}
+
 #pragma mark -- NSObject有在运行时获得类的信息
 // http://www.jianshu.com/p/6c8f5f0bfa6a description 用于打印出便于查看的log
--(void)demo6{
++(void)demo6{
 
     person2*person = [[person2 alloc]init];
     

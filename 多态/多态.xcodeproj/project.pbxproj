@@ -26,13 +26,17 @@
 		74807A4C1ED03F8A00763693 /* SelectorSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 74807A4B1ED03F8A00763693 /* SelectorSub.m */; };
 		74807A4F1ED0497E00763693 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 74807A4E1ED0497E00763693 /* MyClass.m */; };
 		74807A561ED15DA100763693 /* person1.m in Sources */ = {isa = PBXBuildFile; fileRef = 74807A551ED15DA100763693 /* person1.m */; };
+		D813E42A929C8FA102347766 /* libPods-多态.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14667A40C116CA283D2FDCD4 /* libPods-多态.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14667A40C116CA283D2FDCD4 /* libPods-多态.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多态.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24955BA0FF71E8A12B7D0E5C /* Pods-多态.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多态.release.xcconfig"; path = "Pods/Target Support Files/Pods-多态/Pods-多态.release.xcconfig"; sourceTree = "<group>"; };
 		49A511D01ED27B9500FDFE3B /* person2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person2.h; sourceTree = "<group>"; };
 		49A511D11ED27B9500FDFE3B /* person2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person2.m; sourceTree = "<group>"; };
 		49A511D31ED27C4500FDFE3B /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		49A511D41ED27C4500FDFE3B /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		5F82BFB560F96F55CA6527BF /* Pods-多态.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多态.debug.xcconfig"; path = "Pods/Target Support Files/Pods-多态/Pods-多态.debug.xcconfig"; sourceTree = "<group>"; };
 		74807A091ECFBF9C00763693 /* 多态.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多态.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74807A0D1ECFBF9C00763693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74807A0F1ECFBF9C00763693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D813E42A929C8FA102347766 /* libPods-多态.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,8 @@
 			children = (
 				74807A0B1ECFBF9C00763693 /* 多态 */,
 				74807A0A1ECFBF9C00763693 /* Products */,
+				F74CB510B135CDF2D8D22034 /* Pods */,
+				D75B2017004547CD0BCB1036 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +191,23 @@
 			path = "class_addMethod使用";
 			sourceTree = "<group>";
 		};
+		D75B2017004547CD0BCB1036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14667A40C116CA283D2FDCD4 /* libPods-多态.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F74CB510B135CDF2D8D22034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F82BFB560F96F55CA6527BF /* Pods-多态.debug.xcconfig */,
+				24955BA0FF71E8A12B7D0E5C /* Pods-多态.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74807A201ECFBF9C00763693 /* Build configuration list for PBXNativeTarget "多态" */;
 			buildPhases = (
+				15AF27FF48E12D8F39B61A9A /* [CP] Check Pods Manifest.lock */,
 				74807A051ECFBF9C00763693 /* Sources */,
 				74807A061ECFBF9C00763693 /* Frameworks */,
 				74807A071ECFBF9C00763693 /* Resources */,
+				30BB708FA14F3E0EFF5C3608 /* [CP] Embed Pods Frameworks */,
+				58D9CCCB84BAEC38BEEAD467 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15AF27FF48E12D8F39B61A9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30BB708FA14F3E0EFF5C3608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多态/Pods-多态-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D9CCCB84BAEC38BEEAD467 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多态/Pods-多态-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74807A051ECFBF9C00763693 /* Sources */ = {
@@ -389,6 +464,7 @@
 		};
 		74807A211ECFBF9C00763693 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F82BFB560F96F55CA6527BF /* Pods-多态.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3L99Q7H8MX;
@@ -402,6 +478,7 @@
 		};
 		74807A221ECFBF9C00763693 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24955BA0FF71E8A12B7D0E5C /* Pods-多态.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3L99Q7H8MX;

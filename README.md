@@ -27,3 +27,9 @@ http://yulingtianxia.com/blog/2017/04/17/Objective-C-Method-Swizzling/  Objectiv
 
 
 https://my.oschina.net/u/2340880/home  //
+
+http://blog.csdn.net/u011646339/article/details/51546949 // IOS开发之Xcode下使用多target, 让同一份代码，一个工程 Project 管理多个app
+
+
+http://www.jianshu.com/p/c598d7a8036f  // 【iOS开发】扯淡 Method Swizzling
+
