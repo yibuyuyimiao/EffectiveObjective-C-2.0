@@ -19,6 +19,9 @@
 #import "person2.h"
 #import "Teacher.h"
 #import <RSSwizzle/RSSwizzle.h>
+#import "EOCAutoDictionary.h"
+#import "someClass.h"
+#import "MyModelSub.h"
 
 @interface ViewController ()
 
@@ -29,9 +32,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    self.navigationController.navigationBar.translucent=  YES;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    
     
-    
-    [self demo7];
+   // [self demo10];
     
     
     
@@ -39,6 +44,47 @@
     
     
 }
+#pragma make -- 动态方法解析在model上的应用 
+-(void)demo10{
+
+    MyModelSub *model = [[MyModelSub alloc] init];
+    
+    model.prop1 = @"pro1Value";
+    model.prop2 = @"pro2Value";
+    model.name = @"Alex";
+    model.nickName = @"alex";
+    NSLog(@"model.dictionary = %@, \nmodel.pror1= %@",model.dictionary,model.prop1);
+
+    
+
+}
+
+#pragma mark -- 动态方法解析
+
+-(void)demo9{
+
+    someClass *someClas =[[someClass alloc]init];
+    [someClas foo];
+    //[[someClas class] crash];
+
+    [someClas crashObject];
+}
+
+
+#pragma mark -- 动态方法解析
+
+-(void)demo8{
+
+    EOCAutoDictionary *dict = [EOCAutoDictionary new];
+    
+    dict.date = [NSDate dateWithTimeIntervalSince1970:475372800];
+    NSLog(@"dict.date = %@",dict.date);
+    
+    
+    
+
+}
+
 
 #pragma mark -- RSSwizzle的使用
 -(void)demo7{
@@ -76,8 +122,7 @@
     } mode:RSSwizzleModeAlways key:@"key1"];
 
 
-    
-    
+       
     
     
     
@@ -101,6 +146,7 @@
 }
 
 #pragma mark -- NSObject有在运行时获得类的信息
+#pragma mark -- 在类的继承体系中，查询类型信息
 // http://www.jianshu.com/p/6c8f5f0bfa6a description 用于打印出便于查看的log
 +(void)demo6{
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49625A1D1ED6AFC4001A63E3 /* someClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49625A1C1ED6AFC4001A63E3 /* someClass.m */; };
+		49625A201ED6BF03001A63E3 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49625A1F1ED6BF03001A63E3 /* MyModel.m */; };
+		49625A231ED6D6F2001A63E3 /* MyModelSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 49625A221ED6D6F2001A63E3 /* MyModelSub.m */; };
+		4981EBB41ED5351D003BC84F /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4981EBB31ED5351D003BC84F /* EOCAutoDictionary.m */; };
 		49A511D21ED27B9500FDFE3B /* person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A511D11ED27B9500FDFE3B /* person2.m */; };
 		49A511D51ED27C4500FDFE3B /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A511D41ED27C4500FDFE3B /* Teacher.m */; };
 		74807A0E1ECFBF9C00763693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74807A0D1ECFBF9C00763693 /* main.m */; };
@@ -32,6 +36,14 @@
 /* Begin PBXFileReference section */
 		14667A40C116CA283D2FDCD4 /* libPods-多态.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多态.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24955BA0FF71E8A12B7D0E5C /* Pods-多态.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多态.release.xcconfig"; path = "Pods/Target Support Files/Pods-多态/Pods-多态.release.xcconfig"; sourceTree = "<group>"; };
+		49625A1B1ED6AFC4001A63E3 /* someClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = someClass.h; sourceTree = "<group>"; };
+		49625A1C1ED6AFC4001A63E3 /* someClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = someClass.m; sourceTree = "<group>"; };
+		49625A1E1ED6BF03001A63E3 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		49625A1F1ED6BF03001A63E3 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		49625A211ED6D6F2001A63E3 /* MyModelSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModelSub.h; sourceTree = "<group>"; };
+		49625A221ED6D6F2001A63E3 /* MyModelSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModelSub.m; sourceTree = "<group>"; };
+		4981EBB21ED5351D003BC84F /* EOCAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		4981EBB31ED5351D003BC84F /* EOCAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
 		49A511D01ED27B9500FDFE3B /* person2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person2.h; sourceTree = "<group>"; };
 		49A511D11ED27B9500FDFE3B /* person2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person2.m; sourceTree = "<group>"; };
 		49A511D31ED27C4500FDFE3B /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
@@ -90,6 +102,21 @@
 			path = " Method Swizzling";
 			sourceTree = "<group>";
 		};
+		4981EBB11ED534EB003BC84F /* 动态方法解析 */ = {
+			isa = PBXGroup;
+			children = (
+				4981EBB21ED5351D003BC84F /* EOCAutoDictionary.h */,
+				4981EBB31ED5351D003BC84F /* EOCAutoDictionary.m */,
+				49625A1B1ED6AFC4001A63E3 /* someClass.h */,
+				49625A1C1ED6AFC4001A63E3 /* someClass.m */,
+				49625A1E1ED6BF03001A63E3 /* MyModel.h */,
+				49625A1F1ED6BF03001A63E3 /* MyModel.m */,
+				49625A211ED6D6F2001A63E3 /* MyModelSub.h */,
+				49625A221ED6D6F2001A63E3 /* MyModelSub.m */,
+			);
+			path = "动态方法解析";
+			sourceTree = "<group>";
+		};
 		49A511CF1ED27AC900FDFE3B /* NSObject有在运行时获得类的信息 */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 		74807A0B1ECFBF9C00763693 /* 多态 */ = {
 			isa = PBXGroup;
 			children = (
+				4981EBB11ED534EB003BC84F /* 动态方法解析 */,
 				4913C24A1ED2C4A9002C496F /*  Method Swizzling */,
 				49A511CF1ED27AC900FDFE3B /* NSObject有在运行时获得类的信息 */,
 				74807A501ED1511B00763693 /* class_addMethod使用 */,
@@ -342,8 +370,12 @@
 				74807A0E1ECFBF9C00763693 /* main.m in Sources */,
 				49A511D21ED27B9500FDFE3B /* person2.m in Sources */,
 				74807A441ED03BAE00763693 /* Person.m in Sources */,
+				49625A201ED6BF03001A63E3 /* MyModel.m in Sources */,
 				74807A281ECFC3B400763693 /* Cat.m in Sources */,
+				4981EBB41ED5351D003BC84F /* EOCAutoDictionary.m in Sources */,
 				74807A4F1ED0497E00763693 /* MyClass.m in Sources */,
+				49625A1D1ED6AFC4001A63E3 /* someClass.m in Sources */,
+				49625A231ED6D6F2001A63E3 /* MyModelSub.m in Sources */,
 				74807A561ED15DA100763693 /* person1.m in Sources */,
 				74807A421ED03BAE00763693 /* BlackPrinter.m in Sources */,
 				74807A4C1ED03F8A00763693 /* SelectorSub.m in Sources */,
@@ -469,7 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3L99Q7H8MX;
 				INFOPLIST_FILE = "多态/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneStep.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3L99Q7H8MX;
 				INFOPLIST_FILE = "多态/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneStep.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";

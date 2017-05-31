@@ -33,3 +33,41 @@ http://blog.csdn.net/u011646339/article/details/51546949 // IOS开发之Xcode下
 
 http://www.jianshu.com/p/c598d7a8036f  // 【iOS开发】扯淡 Method Swizzling
 
+https://blog.maxleap.cn/archives/368   // maxleap
+
+http://www.jianshu.com/p/c79572a70503 //iOS反射机制: objc_property_t的使用
+
+
+
+
+
+http://www.cocoachina.com/ios/20161114/18068.html ／／NSTimer你真的会用了吗
+ http://www.jb51.net/article/93468.htm  //iOS开发定时器的三种方法分享
+
+
+
+/*****************************************************************************************************/
+
+tabbar 和  Nav
+
+http://www.jianshu.com/p/930643270455 //鬼魅的“64边距”--translucent属性
+http://www.cnblogs.com/xiaofeixiang/p/5149765.html  //iOS开发-Alpha，Hidden与Opaque区别
+http://blog.csdn.net/yxys01/article/details/51507175。 // iOS学习之——Container View Controller
+
+http://www.cocoachina.com/ios/20141208/10551.html //基于Storyboard创建多分支NavigationController的方法
+
+http://blog.csdn.net/yuhao309/article/details/53285223 // error: 'XCTest.framework’ file not found
+
+ http://www.jianshu.com/p/68a589e244e4 //Implementing a Container View Controller 翻译+自我实践
+
+
+／*********************************************************************************************************／
+图片和文字
+
+
+获取图片的尺寸
+http://www.cnblogs.com/mafeng/p/5882656.html
+
+
+
+

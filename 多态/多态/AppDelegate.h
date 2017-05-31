@@ -6,6 +6,8 @@
 //  Copyright © 2017年 ybym.training. All rights reserved.
 /* 
   父类的指针指向子类对象,用父类指针调用子类在父类那继承的方法
+ 
+ 消息传递 动态方法解析 消息转发
   
  
  */
