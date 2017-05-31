@@ -66,7 +66,12 @@ http://blog.csdn.net/yuhao309/article/details/53285223 // error: 'XCTest.framewo
 
 
 获取图片的尺寸
-http://www.cnblogs.com/mafeng/p/5882656.html
+http://www.cnblogs.com/mafeng/p/5882656.html。
+http://blog.csdn.net/gx_wqm/article/details/51511294  //ios 获取UIImage图片的像素尺寸
+http://blog.csdn.net/tabttoo/article/details/51258969  //iOS image.size大小实际输出的值跟图片像素的关系
+
+http://www.tuicool.com/articles/ARJNNzI               //IOS中修改图片的大小：修改分辨率和裁剪
+http://www.open-open.com/code/view/1436757329334
 
 
 
