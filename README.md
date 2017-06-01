@@ -71,8 +71,11 @@ http://blog.csdn.net/gx_wqm/article/details/51511294  //ios 获取UIImage图片�
 http://blog.csdn.net/tabttoo/article/details/51258969  //iOS image.size大小实际输出的值跟图片像素的关系
 
 http://www.tuicool.com/articles/ARJNNzI               //IOS中修改图片的大小：修改分辨率和裁剪
-http://www.open-open.com/code/view/1436757329334
+http://www.open-open.com/code/view/1436757329334。 
+http://www.jianshu.com/p/4a6e03655469                 // iOS图片处理1---CGImageRef基本概念
 
+http://blog.csdn.net/nine_demon/article/details/53139952  // 谈谈UIImage、CGImageRef、CIImage
 
+http://blog.sina.com.cn/s/blog_5fb39f9101017n1v.html        // 
 
 
