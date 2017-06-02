@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIImage+extion.h"
+#import "KCView.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *practiceDemo;
@@ -19,10 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    KCView *view = [[KCView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    view.backgroundColor =[UIColor whiteColor];
+    [self.view addSubview:view];
     
     
-    
-    [self demo3];
+   // [self demo3];
     
 
     //[self demo2];
@@ -34,9 +37,10 @@
 
 -(void)demo3{
 
-    UIImage* image = [UIImage waterMakeImage:@"空白页.png" underImage:@"空白页.png"];
+    UIImage* image = [UIImage waterMakeImage:@"空白页.png" underImage:@"luyueqi.png"];
+    //luyueqi.png
     UIImageView* imageView = [[UIImageView alloc]initWithImage:image];
-    imageView.frame = CGRectMake(0 , [UIScreen mainScreen].bounds.size.height/3, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height/2);
+    imageView.frame = CGRectMake(0 ,0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width);
     [self.view addSubview:imageView];
 
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4973E7681EE0EC8700D62A2E /* luyueqi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4973E7671EE0EC8700D62A2E /* luyueqi.png */; };
+		4973E76B1EE0F6A400D62A2E /* KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4973E76A1EE0F6A400D62A2E /* KCView.m */; };
 		4986DED81EDFA69B00E10752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986DED71EDFA69B00E10752 /* main.m */; };
 		4986DEDB1EDFA69B00E10752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986DEDA1EDFA69B00E10752 /* AppDelegate.m */; };
 		4986DEDE1EDFA69B00E10752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986DEDD1EDFA69B00E10752 /* ViewController.m */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4973E7671EE0EC8700D62A2E /* luyueqi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luyueqi.png; sourceTree = "<group>"; };
+		4973E7691EE0F6A400D62A2E /* KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCView.h; sourceTree = "<group>"; };
+		4973E76A1EE0F6A400D62A2E /* KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCView.m; sourceTree = "<group>"; };
 		4986DED31EDFA69B00E10752 /* 项目中的图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "项目中的图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4986DED71EDFA69B00E10752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4986DED91EDFA69B00E10752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +122,8 @@
 				4986DEDD1EDFA69B00E10752 /* ViewController.m */,
 				4986DF171EE00D3800E10752 /* UIImage+extion.h */,
 				4986DF181EE00D3800E10752 /* UIImage+extion.m */,
+				4973E7691EE0F6A400D62A2E /* KCView.h */,
+				4973E76A1EE0F6A400D62A2E /* KCView.m */,
 				4986DEDF1EDFA69B00E10752 /* Main.storyboard */,
 				4986DEE21EDFA69B00E10752 /* Assets.xcassets */,
 				4986DEE41EDFA69B00E10752 /* LaunchScreen.storyboard */,
@@ -155,6 +162,7 @@
 		4986DF091EDFA93E00E10752 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				4973E7671EE0EC8700D62A2E /* luyueqi.png */,
 				4986DF101EDFA9C100E10752 /* 空白页.png */,
 				4986DF111EDFA9C100E10752 /* 空白页@3x.png */,
 				4986DF0B1EDFA95100E10752 /* 空白页@2x.png */,
@@ -273,6 +281,7 @@
 			files = (
 				4986DF0E1EDFA95100E10752 /* 空白页@2x.png in Resources */,
 				4986DEE61EDFA69B00E10752 /* LaunchScreen.storyboard in Resources */,
+				4973E7681EE0EC8700D62A2E /* luyueqi.png in Resources */,
 				4986DEE31EDFA69B00E10752 /* Assets.xcassets in Resources */,
 				4986DEE11EDFA69B00E10752 /* Main.storyboard in Resources */,
 				4986DF131EDFA9C100E10752 /* 空白页@3x.png in Resources */,
@@ -305,6 +314,7 @@
 				4986DEDB1EDFA69B00E10752 /* AppDelegate.m in Sources */,
 				4986DF191EE00D3800E10752 /* UIImage+extion.m in Sources */,
 				4986DED81EDFA69B00E10752 /* main.m in Sources */,
+				4973E76B1EE0F6A400D62A2E /* KCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +554,7 @@
 				4986DF021EDFA69B00E10752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4986DF031EDFA69B00E10752 /* Build configuration list for PBXNativeTarget "项目中的图片Tests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +563,7 @@
 				4986DF051EDFA69B00E10752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4986DF061EDFA69B00E10752 /* Build configuration list for PBXNativeTarget "项目中的图片UITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +572,7 @@
 				4986DF081EDFA69B00E10752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

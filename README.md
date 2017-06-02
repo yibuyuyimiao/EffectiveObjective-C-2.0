@@ -64,7 +64,7 @@ http://blog.csdn.net/yuhao309/article/details/53285223 // error: 'XCTest.framewo
 ／*********************************************************************************************************／
 图片和文字
 
-
+http://www.jianshu.com/p/6665c088bd01 //iOS_NSAttributedString 的21种属性详细介绍(图文混排)
 获取图片的尺寸
 http://www.cnblogs.com/mafeng/p/5882656.html。
 http://blog.csdn.net/gx_wqm/article/details/51511294  //ios 获取UIImage图片的像素尺寸
@@ -77,5 +77,6 @@ http://www.jianshu.com/p/4a6e03655469                 // iOS图片处理1---CGIm
 http://blog.csdn.net/nine_demon/article/details/53139952  // 谈谈UIImage、CGImageRef、CIImage
 
 http://blog.sina.com.cn/s/blog_5fb39f9101017n1v.html        // 
+http://blog.csdn.net/qq136501564/article/details/51236536   // iOS开发之--图形上下文以及绘图
 
 
