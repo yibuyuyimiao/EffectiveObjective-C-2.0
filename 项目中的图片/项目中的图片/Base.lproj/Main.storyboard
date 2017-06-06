@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,19 +23,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yOU-lP-ED8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="7qT-OX-ilb"/>
+                                </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IRh-u8-q0A">
+                                <rect key="frame" x="16" y="69" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Z8B-aZ-rDc"/>
+                                    <constraint firstAttribute="height" constant="65" id="hWc-q7-GFJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLq-lk-f3v">
+                                <rect key="frame" x="0.0" y="165" width="375" height="31"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="zdu-qy-ZMe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yOU-lP-ED8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0Ji-pg-ydx"/>
-                            <constraint firstAttribute="trailing" secondItem="yOU-lP-ED8" secondAttribute="trailing" id="1pt-ID-2fO"/>
-                            <constraint firstItem="yOU-lP-ED8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="c8j-Uy-aC0"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yOU-lP-ED8" secondAttribute="bottom" id="jCH-Q5-i1L"/>
+                            <constraint firstItem="IRh-u8-q0A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="1Va-kh-L4o"/>
+                            <constraint firstAttribute="trailing" secondItem="rLq-lk-f3v" secondAttribute="trailing" id="2bj-r7-REF"/>
+                            <constraint firstItem="IRh-u8-q0A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AcZ-AK-c9d"/>
+                            <constraint firstAttribute="trailing" secondItem="yOU-lP-ED8" secondAttribute="trailing" id="C4L-1k-Mhm"/>
+                            <constraint firstItem="yOU-lP-ED8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HyS-7A-cyA"/>
+                            <constraint firstItem="rLq-lk-f3v" firstAttribute="top" secondItem="IRh-u8-q0A" secondAttribute="bottom" constant="31" id="K5y-qn-0vm"/>
+                            <constraint firstItem="rLq-lk-f3v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VdF-QT-4ft"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yOU-lP-ED8" secondAttribute="bottom" id="tR6-w0-Kvw"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="attributLb" destination="rLq-lk-f3v" id="BSC-rh-Cs3"/>
+                        <outlet property="lbHeight" destination="zdu-qy-ZMe" id="9Kl-vE-yrb"/>
                         <outlet property="practiceDemo" destination="yOU-lP-ED8" id="RKK-Oe-0em"/>
+                        <outlet property="topImage" destination="IRh-u8-q0A" id="tBx-9U-SIy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

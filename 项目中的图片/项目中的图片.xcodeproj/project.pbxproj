@@ -21,6 +21,8 @@
 		4986DF121EDFA9C100E10752 /* 空白页.png in Resources */ = {isa = PBXBuildFile; fileRef = 4986DF101EDFA9C100E10752 /* 空白页.png */; };
 		4986DF131EDFA9C100E10752 /* 空白页@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4986DF111EDFA9C100E10752 /* 空白页@3x.png */; };
 		4986DF191EE00D3800E10752 /* UIImage+extion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986DF181EE00D3800E10752 /* UIImage+extion.m */; };
+		49A01B8A1EE53C0E00614554 /* myTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A01B891EE53C0E00614554 /* myTextAttachment.m */; };
+		49A01B8C1EE5415A00614554 /* zou.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A01B8B1EE5415A00614554 /* zou.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		4986DF111EDFA9C100E10752 /* 空白页@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空白页@3x.png"; sourceTree = "<group>"; };
 		4986DF171EE00D3800E10752 /* UIImage+extion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extion.h"; sourceTree = "<group>"; };
 		4986DF181EE00D3800E10752 /* UIImage+extion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extion.m"; sourceTree = "<group>"; };
+		49A01B881EE53C0E00614554 /* myTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTextAttachment.h; sourceTree = "<group>"; };
+		49A01B891EE53C0E00614554 /* myTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTextAttachment.m; sourceTree = "<group>"; };
+		49A01B8B1EE5415A00614554 /* zou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zou.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,8 @@
 				4986DF181EE00D3800E10752 /* UIImage+extion.m */,
 				4973E7691EE0F6A400D62A2E /* KCView.h */,
 				4973E76A1EE0F6A400D62A2E /* KCView.m */,
+				49A01B881EE53C0E00614554 /* myTextAttachment.h */,
+				49A01B891EE53C0E00614554 /* myTextAttachment.m */,
 				4986DEDF1EDFA69B00E10752 /* Main.storyboard */,
 				4986DEE21EDFA69B00E10752 /* Assets.xcassets */,
 				4986DEE41EDFA69B00E10752 /* LaunchScreen.storyboard */,
@@ -162,6 +169,7 @@
 		4986DF091EDFA93E00E10752 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				49A01B8B1EE5415A00614554 /* zou.png */,
 				4973E7671EE0EC8700D62A2E /* luyueqi.png */,
 				4986DF101EDFA9C100E10752 /* 空白页.png */,
 				4986DF111EDFA9C100E10752 /* 空白页@3x.png */,
@@ -280,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4986DF0E1EDFA95100E10752 /* 空白页@2x.png in Resources */,
+				49A01B8C1EE5415A00614554 /* zou.png in Resources */,
 				4986DEE61EDFA69B00E10752 /* LaunchScreen.storyboard in Resources */,
 				4973E7681EE0EC8700D62A2E /* luyueqi.png in Resources */,
 				4986DEE31EDFA69B00E10752 /* Assets.xcassets in Resources */,
@@ -315,6 +324,7 @@
 				4986DF191EE00D3800E10752 /* UIImage+extion.m in Sources */,
 				4986DED81EDFA69B00E10752 /* main.m in Sources */,
 				4973E76B1EE0F6A400D62A2E /* KCView.m in Sources */,
+				49A01B8A1EE53C0E00614554 /* myTextAttachment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

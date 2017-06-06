@@ -80,3 +80,10 @@ http://blog.sina.com.cn/s/blog_5fb39f9101017n1v.html        //
 http://blog.csdn.net/qq136501564/article/details/51236536   // iOS开发之--图形上下文以及绘图
 
 
+http://www.jianshu.com/p/b9552f2d76dd //
+http://blog.csdn.net/pp204204/article/details/17711383 //iOS 7下计算文本高度注意事项
+
+http://blog.csdn.net/caoshen_vip/article/details/44652619  UILabel详解／／http://blog.csdn.net/caoshen_vip/article/details/44652619
+http://blog.csdn.net/sevenquan/article/details/52054982  ／／  iOS 把UILabel的text设置成斜体
+
+
