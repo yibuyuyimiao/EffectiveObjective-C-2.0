@@ -42,7 +42,7 @@
     
 }
 
-#pragma mark -- 图片里面添加图片
+#pragma mark -- 图片里面添加图片label中的字体
 
 -(void)demo6{
     

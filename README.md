@@ -39,6 +39,10 @@ http://www.jianshu.com/p/c79572a70503 //iOS反射机制: objc_property_t的使�
 
 
 
+http://www.cocoachina.com/ios/20150625/12234.html //说说iOS与内存管理（上）
+
+
+
 
 
 http://www.cocoachina.com/ios/20161114/18068.html ／／NSTimer你真的会用了吗
@@ -86,4 +90,8 @@ http://blog.csdn.net/pp204204/article/details/17711383 //iOS 7下计算文本高
 http://blog.csdn.net/caoshen_vip/article/details/44652619  UILabel详解／／http://blog.csdn.net/caoshen_vip/article/details/44652619
 http://blog.csdn.net/sevenquan/article/details/52054982  ／／  iOS 把UILabel的text设置成斜体
 
+http://www.2cto.com/kf/201507/412894.html//iOS图片填充UIImageView(contentMode)
+http://blog.csdn.net/q199109106q/article/details/8615661 //iOS图片拉伸技巧  http://www.jianshu.com/p/c9cbbdaa9b02 //https://my.oschina.net/iq19900204/blog/514371
+
+http://blog.csdn.net/whuizhou/article/details/50436742
 
