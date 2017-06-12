@@ -8,6 +8,7 @@
 // http://www.jianshu.com/p/c79572a70503
 #import <Foundation/Foundation.h>
 
+// 属性和成员变量的区别
 @interface Person : NSObject{
 
     NSString *_name;
@@ -22,4 +23,6 @@
 
 - (NSArray*)getPropertieNamesByObject:(id)object;
 
+
++(void)createClass;
 @end

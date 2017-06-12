@@ -1,5 +1,9 @@
 # EffectiveObjective-C-2.0
 
+svn使用 http://www.jianshu.com/p/2d11e38a3b2c
+
+
+
 Objective-C 指针类型的变量有两个：一个是编译时类型，一个是运行时类型；如果编译时类型和运行时类型不一致的时候就可能出现多态。
 相同类型的变量调用同一个方法呈现出多种不同的行为特征就是多态
 多态可以提高程序的可拓展性
@@ -35,9 +39,11 @@ http://www.jianshu.com/p/c598d7a8036f  // 【iOS开发】扯淡 Method Swizzling
 
 https://blog.maxleap.cn/archives/368   // maxleap
 
-http://www.jianshu.com/p/c79572a70503 //iOS反射机制: objc_property_t的使用
+http://www.jianshu.com/p/c79572a70503 //iOS反射机制: objc_property_t的使用 // 方法使用的注意事项 // http://blog.csdn.net/skylin19840101/article/details/52152215
+http://www.cocoachina.com/industry/20140527/8570.html // 运行时能做些什么
 
-
+http://www.jianshu.com/p/0456624b23bd  //runtime反射机制运用之获取当前网络状态
+https://my.oschina.net/w11h22j33/blog/205796    //iOS动态特性初研究（利用JSON动态创建类型和对象）
 
 http://www.cocoachina.com/ios/20150625/12234.html //说说iOS与内存管理（上）
 
@@ -94,4 +100,12 @@ http://www.2cto.com/kf/201507/412894.html//iOS图片填充UIImageView(contentMod
 http://blog.csdn.net/q199109106q/article/details/8615661 //iOS图片拉伸技巧  http://www.jianshu.com/p/c9cbbdaa9b02 //https://my.oschina.net/iq19900204/blog/514371
 
 http://blog.csdn.net/whuizhou/article/details/50436742
+
+
+／********************************************************************************************************************************************************／
+
+http://blog.csdn.net/daleiwang/article/details/50581872 ／／ios高效开发－正确的使用枚举（Enum）http://tutuge.me/2015/03/21/effective-objective-c-5-enum/?utm_source=tuicool&utm_medium=referral
+
+· Pull Request #774 · ReactiveCocoa/ReactiveCocoa //类组
+http://www.cocoachina.com/ios/20151214/14687.html //不可变对象的魅力
 
