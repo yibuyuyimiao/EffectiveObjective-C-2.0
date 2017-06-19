@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4976B7A81EF0C2A4000DE0F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7A71EF0C2A4000DE0F7 /* main.m */; };
+		4976B7AB1EF0C2A4000DE0F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7AA1EF0C2A4000DE0F7 /* AppDelegate.m */; };
+		4976B7AE1EF0C2A4000DE0F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7AD1EF0C2A4000DE0F7 /* ViewController.m */; };
+		4976B7B11EF0C2A4000DE0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976B7AF1EF0C2A4000DE0F7 /* Main.storyboard */; };
+		4976B7B31EF0C2A4000DE0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4976B7B21EF0C2A4000DE0F7 /* Assets.xcassets */; };
+		4976B7B61EF0C2A4000DE0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976B7B41EF0C2A4000DE0F7 /* LaunchScreen.storyboard */; };
+		4976B7C11EF0C2A5000DE0F7 /* _____________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7C01EF0C2A5000DE0F7 /* _____________________Tests.m */; };
+		4976B7CC1EF0C2A5000DE0F7 /* _____________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7CB1EF0C2A5000DE0F7 /* _____________________UITests.m */; };
+		4976B7DB1EF0C2BF000DE0F7 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7DA1EF0C2BF000DE0F7 /* EOCPerson.m */; };
+		4976B7DE1EF0C381000DE0F7 /* EOCPerson+Friendship.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976B7DD1EF0C381000DE0F7 /* EOCPerson+Friendship.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4976B7BD1EF0C2A5000DE0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4976B79B1EF0C2A4000DE0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4976B7A21EF0C2A4000DE0F7;
+			remoteInfo = "把类的实现代码分散到便于管理的数个分类之中";
+		};
+		4976B7C81EF0C2A5000DE0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4976B79B1EF0C2A4000DE0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4976B7A21EF0C2A4000DE0F7;
+			remoteInfo = "把类的实现代码分散到便于管理的数个分类之中";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4976B7A31EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "把类的实现代码分散到便于管理的数个分类之中.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976B7A71EF0C2A4000DE0F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4976B7A91EF0C2A4000DE0F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4976B7AA1EF0C2A4000DE0F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4976B7AC1EF0C2A4000DE0F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4976B7AD1EF0C2A4000DE0F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4976B7B01EF0C2A4000DE0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4976B7B21EF0C2A4000DE0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4976B7B51EF0C2A4000DE0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4976B7B71EF0C2A4000DE0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976B7BC1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "把类的实现代码分散到便于管理的数个分类之中Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976B7C01EF0C2A5000DE0F7 /* _____________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________________Tests.m"; sourceTree = "<group>"; };
+		4976B7C21EF0C2A5000DE0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976B7C71EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "把类的实现代码分散到便于管理的数个分类之中UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976B7CB1EF0C2A5000DE0F7 /* _____________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________________UITests.m"; sourceTree = "<group>"; };
+		4976B7CD1EF0C2A5000DE0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976B7D91EF0C2BF000DE0F7 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOCPerson.h; path = ../EOCPerson.h; sourceTree = "<group>"; };
+		4976B7DA1EF0C2BF000DE0F7 /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOCPerson.m; path = ../EOCPerson.m; sourceTree = "<group>"; };
+		4976B7DC1EF0C381000DE0F7 /* EOCPerson+Friendship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EOCPerson+Friendship.h"; sourceTree = "<group>"; };
+		4976B7DD1EF0C381000DE0F7 /* EOCPerson+Friendship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EOCPerson+Friendship.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4976B7A01EF0C2A4000DE0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7B91EF0C2A5000DE0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7C41EF0C2A5000DE0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4976B79A1EF0C2A4000DE0F7 = {
+			isa = PBXGroup;
+			children = (
+				4976B7A51EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */,
+				4976B7BF1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests */,
+				4976B7CA1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests */,
+				4976B7A41EF0C2A4000DE0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4976B7A41EF0C2A4000DE0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4976B7A31EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中.app */,
+				4976B7BC1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests.xctest */,
+				4976B7C71EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4976B7A51EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */ = {
+			isa = PBXGroup;
+			children = (
+				4976B7D91EF0C2BF000DE0F7 /* EOCPerson.h */,
+				4976B7DA1EF0C2BF000DE0F7 /* EOCPerson.m */,
+				4976B7DC1EF0C381000DE0F7 /* EOCPerson+Friendship.h */,
+				4976B7DD1EF0C381000DE0F7 /* EOCPerson+Friendship.m */,
+				4976B7A91EF0C2A4000DE0F7 /* AppDelegate.h */,
+				4976B7AA1EF0C2A4000DE0F7 /* AppDelegate.m */,
+				4976B7AC1EF0C2A4000DE0F7 /* ViewController.h */,
+				4976B7AD1EF0C2A4000DE0F7 /* ViewController.m */,
+				4976B7AF1EF0C2A4000DE0F7 /* Main.storyboard */,
+				4976B7B21EF0C2A4000DE0F7 /* Assets.xcassets */,
+				4976B7B41EF0C2A4000DE0F7 /* LaunchScreen.storyboard */,
+				4976B7B71EF0C2A4000DE0F7 /* Info.plist */,
+				4976B7A61EF0C2A4000DE0F7 /* Supporting Files */,
+			);
+			path = "把类的实现代码分散到便于管理的数个分类之中";
+			sourceTree = "<group>";
+		};
+		4976B7A61EF0C2A4000DE0F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4976B7A71EF0C2A4000DE0F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4976B7BF1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4976B7C01EF0C2A5000DE0F7 /* _____________________Tests.m */,
+				4976B7C21EF0C2A5000DE0F7 /* Info.plist */,
+			);
+			path = "把类的实现代码分散到便于管理的数个分类之中Tests";
+			sourceTree = "<group>";
+		};
+		4976B7CA1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4976B7CB1EF0C2A5000DE0F7 /* _____________________UITests.m */,
+				4976B7CD1EF0C2A5000DE0F7 /* Info.plist */,
+			);
+			path = "把类的实现代码分散到便于管理的数个分类之中UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4976B7A21EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976B7D01EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中" */;
+			buildPhases = (
+				4976B79F1EF0C2A4000DE0F7 /* Sources */,
+				4976B7A01EF0C2A4000DE0F7 /* Frameworks */,
+				4976B7A11EF0C2A4000DE0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "把类的实现代码分散到便于管理的数个分类之中";
+			productName = "把类的实现代码分散到便于管理的数个分类之中";
+			productReference = 4976B7A31EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4976B7BB1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976B7D31EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中Tests" */;
+			buildPhases = (
+				4976B7B81EF0C2A5000DE0F7 /* Sources */,
+				4976B7B91EF0C2A5000DE0F7 /* Frameworks */,
+				4976B7BA1EF0C2A5000DE0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4976B7BE1EF0C2A5000DE0F7 /* PBXTargetDependency */,
+			);
+			name = "把类的实现代码分散到便于管理的数个分类之中Tests";
+			productName = "把类的实现代码分散到便于管理的数个分类之中Tests";
+			productReference = 4976B7BC1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4976B7C61EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976B7D61EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中UITests" */;
+			buildPhases = (
+				4976B7C31EF0C2A5000DE0F7 /* Sources */,
+				4976B7C41EF0C2A5000DE0F7 /* Frameworks */,
+				4976B7C51EF0C2A5000DE0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4976B7C91EF0C2A5000DE0F7 /* PBXTargetDependency */,
+			);
+			name = "把类的实现代码分散到便于管理的数个分类之中UITests";
+			productName = "把类的实现代码分散到便于管理的数个分类之中UITests";
+			productReference = 4976B7C71EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4976B79B1EF0C2A4000DE0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yibuyimiao;
+				TargetAttributes = {
+					4976B7A21EF0C2A4000DE0F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3L99Q7H8MX;
+						ProvisioningStyle = Automatic;
+					};
+					4976B7BB1EF0C2A5000DE0F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3L99Q7H8MX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4976B7A21EF0C2A4000DE0F7;
+					};
+					4976B7C61EF0C2A5000DE0F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3L99Q7H8MX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4976B7A21EF0C2A4000DE0F7;
+					};
+				};
+			};
+			buildConfigurationList = 4976B79E1EF0C2A4000DE0F7 /* Build configuration list for PBXProject "把类的实现代码分散到便于管理的数个分类之中" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4976B79A1EF0C2A4000DE0F7;
+			productRefGroup = 4976B7A41EF0C2A4000DE0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4976B7A21EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */,
+				4976B7BB1EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中Tests */,
+				4976B7C61EF0C2A5000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4976B7A11EF0C2A4000DE0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976B7B61EF0C2A4000DE0F7 /* LaunchScreen.storyboard in Resources */,
+				4976B7B31EF0C2A4000DE0F7 /* Assets.xcassets in Resources */,
+				4976B7B11EF0C2A4000DE0F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7BA1EF0C2A5000DE0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7C51EF0C2A5000DE0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4976B79F1EF0C2A4000DE0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976B7DE1EF0C381000DE0F7 /* EOCPerson+Friendship.m in Sources */,
+				4976B7DB1EF0C2BF000DE0F7 /* EOCPerson.m in Sources */,
+				4976B7AE1EF0C2A4000DE0F7 /* ViewController.m in Sources */,
+				4976B7AB1EF0C2A4000DE0F7 /* AppDelegate.m in Sources */,
+				4976B7A81EF0C2A4000DE0F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7B81EF0C2A5000DE0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976B7C11EF0C2A5000DE0F7 /* _____________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4976B7C31EF0C2A5000DE0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976B7CC1EF0C2A5000DE0F7 /* _____________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4976B7BE1EF0C2A5000DE0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4976B7A21EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */;
+			targetProxy = 4976B7BD1EF0C2A5000DE0F7 /* PBXContainerItemProxy */;
+		};
+		4976B7C91EF0C2A5000DE0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4976B7A21EF0C2A4000DE0F7 /* 把类的实现代码分散到便于管理的数个分类之中 */;
+			targetProxy = 4976B7C81EF0C2A5000DE0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4976B7AF1EF0C2A4000DE0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976B7B01EF0C2A4000DE0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4976B7B41EF0C2A4000DE0F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976B7B51EF0C2A4000DE0F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4976B7CE1EF0C2A5000DE0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4976B7CF1EF0C2A5000DE0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4976B7D11EF0C2A5000DE0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4976B7D21EF0C2A5000DE0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4976B7D41EF0C2A5000DE0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/把类的实现代码分散到便于管理的数个分类之中.app/把类的实现代码分散到便于管理的数个分类之中";
+			};
+			name = Debug;
+		};
+		4976B7D51EF0C2A5000DE0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/把类的实现代码分散到便于管理的数个分类之中.app/把类的实现代码分散到便于管理的数个分类之中";
+			};
+			name = Release;
+		};
+		4976B7D71EF0C2A5000DE0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "把类的实现代码分散到便于管理的数个分类之中";
+			};
+			name = Debug;
+		};
+		4976B7D81EF0C2A5000DE0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3L99Q7H8MX;
+				INFOPLIST_FILE = "把类的实现代码分散到便于管理的数个分类之中UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangxiansheng.---------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "把类的实现代码分散到便于管理的数个分类之中";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4976B79E1EF0C2A4000DE0F7 /* Build configuration list for PBXProject "把类的实现代码分散到便于管理的数个分类之中" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976B7CE1EF0C2A5000DE0F7 /* Debug */,
+				4976B7CF1EF0C2A5000DE0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4976B7D01EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976B7D11EF0C2A5000DE0F7 /* Debug */,
+				4976B7D21EF0C2A5000DE0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4976B7D31EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976B7D41EF0C2A5000DE0F7 /* Debug */,
+				4976B7D51EF0C2A5000DE0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4976B7D61EF0C2A5000DE0F7 /* Build configuration list for PBXNativeTarget "把类的实现代码分散到便于管理的数个分类之中UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976B7D71EF0C2A5000DE0F7 /* Debug */,
+				4976B7D81EF0C2A5000DE0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4976B79B1EF0C2A4000DE0F7 /* Project object */;
+}

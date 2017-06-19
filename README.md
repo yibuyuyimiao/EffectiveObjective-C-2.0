@@ -108,4 +108,7 @@ http://blog.csdn.net/daleiwang/article/details/50581872 ／／ios高效开发－
 
 · Pull Request #774 · ReactiveCocoa/ReactiveCocoa //类组
 http://www.cocoachina.com/ios/20151214/14687.html //不可变对象的魅力
+http://www.jianshu.com/p/b7de4031838a // 谈谈 iOS 中可变对象与不可变对象那些事儿
+
+http://www.cocoachina.com/ios/20170314/18865.html // ios 之对象复制
 
